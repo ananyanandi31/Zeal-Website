@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.82.0">
+    
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.min.js"></script>
+    
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">ZEAL</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="products.html">Categories</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contact Us</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <button class="btn btn-outline-success" type="button" onclick="location.href='register.html'"> Register</button>
+          <button class="btn btn-outline-success" type="button" onclick="location.href='signin.html'">Sign In</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+          <image src="images/img1.jpg"> </image>
+
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1 class="head">Footwear</h1>
+            <p class="head">Cinderella is proof that a new pair of shoes can change your life.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Buy Now</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+          <image src="images/img3.jpg"> </image>
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 class="head">Running shoes</h1>
+            <p class="head">Shoes are the makeup for our feet.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Buy Now</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+          <image src="images/img4.jpg" > </image>
+
+
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Training shoes</h1>
+            <p>It's ok to be a little obsessed with shoes.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Buy Now</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<!--Grid content-->
+
+  <div class="container marketing">
+
+    <div class="row">
+      <div class="col-sm-6 col-md-6 col-lg-4">
+        <img src="images/img2.jpg" class="img-thumbnail" width="300" height="236">
+
+        <h2 class="thumbnail-head">Running shoes</h2>
+        <p>Run like a Cheetah with our special running shoes. Padding added for extra comfort.</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+
+      <div class="col-sm-6 col-md-6 col-lg-4">
+        <img src="images/img8.jpg" class="img-thumbnail" width="300" height="236">
+
+        <h2 class="thumbnail-head">Boots</h2>
+        <p>One can never have to many of these classy footwear. New styles kicking in soon!</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-sm-6 col-md-6 col-lg-4 order-last">
+        <img src="images/img6.jpg" class="img-thumbnail" width="300" height="236">
+
+        <h2 class="thumbnail-head">Sneakers</h2>
+        <p>Bright sneakers to make your feet feel lighter than ever!</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- row -->
+    
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+  </footer>
+</main>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>

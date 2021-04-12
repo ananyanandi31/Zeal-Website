@@ -1,0 +1,57 @@
+h1.head {
+  color: black;
+  font-size: 40px; }
+
+p.head {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'Lucida Sans',sans-serif; }
+
+.img-thumbnail {
+  height: 230px;
+  width: 300px; }
+
+.thumbnail-head {
+  padding: 10px; }
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .btn-secondary {
+    overflow: hidden;
+    text-overflow: ellipsis; } }
+@media (min-width: 576px) and (max-width: 768px) {
+  .btn-secondary {
+    overflow: hidden;
+    text-overflow: ellipsis; } }
+
+.navbar-dark .navbar-brand {
+  color: pink;
+  font-weight: bolder;
+  font-size: 30px; }
+
+.btn-outline-success{
+  margin: 10px;
+}
+
+.form-box{
+  padding:20px;
+  margin-top:70px;
+  background-color: rgb(223, 217, 217);
+  border-radius: 10px;
+}
+.form-group{
+  padding:10px;
+  margin:5px;
+}
+.form-control-label{
+  padding:5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.table-striped{
+  margin-top: 70px;
+}
+#myCarousel{
+  margin-top:25px;
+}
+/*# sourceMappingURL=style.css.map */
